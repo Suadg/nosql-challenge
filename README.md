@@ -19,7 +19,7 @@ Use NoSQL_setup_starter.ipynb for this section of the challenge.
     - List the collection(s) in the database to ensure that establishments is there.
 
     - Find and display one document in the establishments collection using find_one and display with pprint.
-    
+
 <img width="732" alt="Screenshot 2023-05-03 at 4 03 36 PM" src="https://user-images.githubusercontent.com/121995835/236035487-12227699-e904-4c70-bc13-d4327b115e2f.png">
 
 ## Part 2: Update the Database
@@ -66,15 +66,17 @@ Unless otherwise stated, for each question:
 
    - Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
 
-1. Which establishments have a hygiene score equal to 20?
-*Refer to jupyter notebook*
+1. Which establishments have a hygiene score equal to 20? 41 establishments
 
-2. Which establishments in London have a RatingValue greater than or equal to 4?
-*Refer to jupyter notebook*
+
+2. Which establishments in London have a RatingValue greater than or equal to 4? 33
+
 
 3. What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
-*Refer to jupyter notebook*
+{'_id': ObjectId('664fd6c825d6a3f56dfa268c'),
+ 'geocode': {'latitude': 51.490142, 'longitude': 0.08384}}
 
-4. How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.
+4. How many establishments in each Local Authority area have a hygiene score of 0? 55
+Sort the results from highest to lowest, and print out the top ten local authority areas.
 
 <img width="574" alt="Screenshot 2023-05-03 at 4 10 25 PM" src="https://user-images.githubusercontent.com/121995835/236037525-ae95e26b-5a9b-4d5e-a3c7-803405e593fb.png">
