@@ -19,6 +19,7 @@ Use NoSQL_setup_starter.ipynb for this section of the challenge.
     - List the collection(s) in the database to ensure that establishments is there.
 
     - Find and display one document in the establishments collection using find_one and display with pprint.
+    
 <img width="732" alt="Screenshot 2023-05-03 at 4 03 36 PM" src="https://user-images.githubusercontent.com/121995835/236035487-12227699-e904-4c70-bc13-d4327b115e2f.png">
 
 ## Part 2: Update the Database
@@ -27,6 +28,7 @@ Use NoSQL_setup_starter.ipynb for this section of the challenge.
 The magazine editors have some requested modifications for the database before you can perform any queries or analysis for them. Make the following changes to the establishments collection:
 
 An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked you to include it in your analysis. Add the following information to the database:
+
 <img width="485" alt="Screenshot 2023-05-03 at 2 30 06 PM" src="https://user-images.githubusercontent.com/121995835/236010614-f880c7cf-b73f-4737-85ff-d73f0aad63e8.png">
 
 2. Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the BusinessTypeID and BusinessType fields.
